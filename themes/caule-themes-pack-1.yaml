@@ -153,12 +153,8 @@ Caule Black Rose:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -255,12 +251,8 @@ Caule Black Purple:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -357,12 +349,8 @@ Caule Black Blue:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -459,12 +447,8 @@ Caule Black Aqua:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -561,12 +545,8 @@ Caule Black Green:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -663,12 +643,8 @@ Caule Black Yellow:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -765,12 +741,8 @@ Caule Black Orange:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -867,12 +839,8 @@ Caule Black Coral:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -969,12 +937,8 @@ Caule Black Pink:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1071,12 +1035,8 @@ Caule Black Gray:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1180,12 +1140,8 @@ Caule Black Rose Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1284,12 +1240,8 @@ Caule Black Purple Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1389,12 +1341,8 @@ Caule Black Blue Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1494,12 +1442,8 @@ Caule Black Aqua Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1599,12 +1543,8 @@ Caule Black Green Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1704,12 +1644,8 @@ Caule Black Yellow Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1809,12 +1745,8 @@ Caule Black Orange Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1914,12 +1846,8 @@ Caule Black Coral Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2019,12 +1947,8 @@ Caule Black Pink Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2124,12 +2048,8 @@ Caule Black Gray Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2233,12 +2153,8 @@ Caule Light Rose:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2333,12 +2249,8 @@ Caule Light Purple:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2433,12 +2345,8 @@ Caule Light Blue:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2533,12 +2441,8 @@ Caule Light Aqua:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2633,12 +2537,8 @@ Caule Light Green:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2733,12 +2633,8 @@ Caule Light Yellow:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2833,12 +2729,8 @@ Caule Light Orange:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2933,12 +2825,8 @@ Caule Light Coral:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3033,12 +2921,8 @@ Caule Light Pink:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3133,12 +3017,8 @@ Caule Light Gray:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3239,12 +3119,8 @@ Caule Dark Rose:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3342,12 +3218,8 @@ Caule Dark Purple:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3445,12 +3317,8 @@ Caule Dark Blue:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3548,12 +3416,8 @@ Caule Dark Aqua:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3651,12 +3515,8 @@ Caule Dark Green:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3754,12 +3614,8 @@ Caule Dark Yellow:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3858,12 +3714,8 @@ Caule Dark Orange:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3961,12 +3813,8 @@ Caule Dark Coral:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -4064,12 +3912,8 @@ Caule Dark Pink:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -4167,12 +4011,8 @@ Caule Dark Gray:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  # Papers slider colors
-  paper-slider-knob-color: var(--primary-color)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: var(--disabled-color)
+  # Slider colors
+  clear-background-color: var(--ha-card-background) # Controls the slider tooltip background
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
