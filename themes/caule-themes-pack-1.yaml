@@ -88,6 +88,10 @@
 # General field anchors
 # ==============================================
 
+# Change the value below to adjust (or remove) the rounded corners
+.border-radius-default: &border_radius
+  ha-card-border-radius: 8px
+
 # Animated icons
 .animated-icons-defaults: &animated_icons
   weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
@@ -122,9 +126,7 @@
 #                                                                         
 
 Caule Black Rose:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#aa3151"
   light-primary-color: "#b8536d"
@@ -220,9 +222,7 @@ Caule Black Rose:
 
 
 Caule Black Purple:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#904eab"
   light-primary-color: "#c983e4"
@@ -318,9 +318,7 @@ Caule Black Purple:
 
 
 Caule Black Blue:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#009bb5"
   light-primary-color: "#5ed1eb"
@@ -416,9 +414,7 @@ Caule Black Blue:
 
 
 Caule Black Aqua:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#11ab93"
   light-primary-color: "#62e3c8"
@@ -514,9 +510,7 @@ Caule Black Aqua:
 
 
 Caule Black Green:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#6ca049"
   light-primary-color: "#a1d77b"
@@ -612,9 +606,7 @@ Caule Black Green:
 
 
 Caule Black Yellow:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#d6a245"
   light-primary-color: "#ffd979"
@@ -710,9 +702,7 @@ Caule Black Yellow:
 
 
 Caule Black Orange:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#d25f36"
   light-primary-color: "#ff9568"
@@ -808,9 +798,7 @@ Caule Black Orange:
 
 
 Caule Black Coral:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#fa6e5e"
   light-primary-color: "#ffa792"
@@ -906,9 +894,7 @@ Caule Black Coral:
 
 
 Caule Black Pink:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#f36f92"
   light-primary-color: "#ffa8c9"
@@ -1004,9 +990,7 @@ Caule Black Pink:
 
 
 Caule Black Gray:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#acacac"
   light-primary-color: "#e2e2e2"
@@ -1107,9 +1091,7 @@ Caule Black Gray:
 #                                                                                               
 
 Caule Black Rose Glass:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rose.jpg") fixed'
   # Main colors
@@ -1207,9 +1189,7 @@ Caule Black Rose Glass:
 
 
 Caule Black Purple Glass:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/purple.jpg") fixed'
   # Main colors
@@ -1308,9 +1288,7 @@ Caule Black Purple Glass:
 
 
 Caule Black Blue Glass:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/blue.jpg") fixed'
   # Main colors
@@ -1409,9 +1387,7 @@ Caule Black Blue Glass:
 
 
 Caule Black Aqua Glass:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/aqua.jpg") fixed'
   # Main colors
@@ -1510,9 +1486,7 @@ Caule Black Aqua Glass:
 
 
 Caule Black Green Glass:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/green.jpg") fixed'
   # Main colors
@@ -1611,9 +1585,7 @@ Caule Black Green Glass:
 
 
 Caule Black Yellow Glass:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/yellow.jpg") fixed'
   # Main colors
@@ -1712,9 +1684,7 @@ Caule Black Yellow Glass:
 
 
 Caule Black Orange Glass:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/orange.jpg") fixed'
   # Main colors
@@ -1813,9 +1783,7 @@ Caule Black Orange Glass:
 
 
 Caule Black Coral Glass:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/coral.jpg") fixed'
   # Main colors
@@ -1914,9 +1882,7 @@ Caule Black Coral Glass:
 
 
 Caule Black Pink Glass:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pink.jpg") fixed'
   # Main colors
@@ -2015,9 +1981,7 @@ Caule Black Pink Glass:
 
 
 Caule Black Gray Glass:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/gray.jpg") fixed'
   # Main colors
@@ -2122,9 +2086,7 @@ Caule Black Gray Glass:
                                                           
 
 Caule Light Rose:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#aa3151"
   light-primary-color: "#b8536d"
@@ -2218,9 +2180,7 @@ Caule Light Rose:
 
 
 Caule Light Purple:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#904eab"
   light-primary-color: "#c983e4"
@@ -2314,9 +2274,7 @@ Caule Light Purple:
 
 
 Caule Light Blue:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#009bb5"
   light-primary-color: "#5ed1eb"
@@ -2410,9 +2368,7 @@ Caule Light Blue:
 
 
 Caule Light Aqua:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#11ab93"
   light-primary-color: "#62e3c8"
@@ -2506,9 +2462,7 @@ Caule Light Aqua:
 
 
 Caule Light Green:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#6ca049"
   light-primary-color: "#a1d77b"
@@ -2602,9 +2556,7 @@ Caule Light Green:
 
 
 Caule Light Yellow:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#d6a245"
   light-primary-color: "#ffd979"
@@ -2698,9 +2650,7 @@ Caule Light Yellow:
 
 
 Caule Light Orange:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#d25f36"
   light-primary-color: "#ff9568"
@@ -2794,9 +2744,7 @@ Caule Light Orange:
 
 
 Caule Light Coral:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#fa6e5e"
   light-primary-color: "#ffa792"
@@ -2890,9 +2838,7 @@ Caule Light Coral:
 
 
 Caule Light Pink:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#f36f92"
   light-primary-color: "#ffa8c9"
@@ -2986,9 +2932,7 @@ Caule Light Pink:
 
 
 Caule Light Gray:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#666666"
   light-primary-color: "#989898"
@@ -3088,9 +3032,7 @@ Caule Light Gray:
                                 
 
 Caule Dark Rose:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#aa3151"
   light-primary-color: "#b8536d"
@@ -3187,9 +3129,7 @@ Caule Dark Rose:
 
 
 Caule Dark Purple:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#904eab"
   light-primary-color: "#c983e4"
@@ -3286,9 +3226,7 @@ Caule Dark Purple:
 
 
 Caule Dark Blue:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#009bb5"
   light-primary-color: "#5ed1eb"
@@ -3385,9 +3323,7 @@ Caule Dark Blue:
 
 
 Caule Dark Aqua:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#11ab93"
   light-primary-color: "#62e3c8"
@@ -3484,9 +3420,7 @@ Caule Dark Aqua:
 
 
 Caule Dark Green:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#6ca049"
   light-primary-color: "#a1d77b"
@@ -3583,9 +3517,7 @@ Caule Dark Green:
 
 
 Caule Dark Yellow:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#d6a245"
   light-primary-color: "#ffd979"
@@ -3683,9 +3615,7 @@ Caule Dark Yellow:
 
 
 Caule Dark Orange:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#d25f36"
   light-primary-color: "#ff9568"
@@ -3782,9 +3712,7 @@ Caule Dark Orange:
 
 
 Caule Dark Coral:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#fa6e5e"
   light-primary-color: "#ffa792"
@@ -3881,9 +3809,7 @@ Caule Dark Coral:
 
 
 Caule Dark Pink:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#f36f92"
   light-primary-color: "#ffa8c9"
@@ -3980,9 +3906,7 @@ Caule Dark Pink:
 
 
 Caule Dark Gray:
-
-  # Change the value below 8px to 0px to remove the rounded corners
-  ha-card-border-radius: 8px
+  <<: *border_radius
   # Main colors
   primary-color: "#acacac"
   light-primary-color: "#e2e2e2"
