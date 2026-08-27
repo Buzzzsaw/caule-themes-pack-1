@@ -84,6 +84,28 @@
 #
 #
 
+# ==============================================
+# General field anchors
+# ==============================================
+
+# Animated icons
+.animated-icons-defaults: &animated_icons
+  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
+  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
+  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
+  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
+  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
+  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
+  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
+  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
+  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
+  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
+  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
+  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
+  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
+  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+
 # Fix override anchors
 .text_box_defaults: &text_box_fix
   ha-color-form-background: var(--ha-card-background)
@@ -160,22 +182,8 @@ Caule Black Rose:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -276,22 +284,8 @@ Caule Black Purple:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -392,22 +386,8 @@ Caule Black Blue:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -508,22 +488,8 @@ Caule Black Aqua:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -624,22 +590,8 @@ Caule Black Green:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -740,22 +692,8 @@ Caule Black Yellow:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -856,22 +794,8 @@ Caule Black Orange:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -972,22 +896,8 @@ Caule Black Coral:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1088,22 +998,8 @@ Caule Black Pink:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1204,22 +1100,8 @@ Caule Black Gray:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1327,22 +1209,8 @@ Caule Black Rose Glass:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1445,22 +1313,8 @@ Caule Black Purple Glass:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1564,22 +1418,8 @@ Caule Black Blue Glass:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1683,22 +1523,8 @@ Caule Black Aqua Glass:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1802,22 +1628,8 @@ Caule Black Green Glass:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -1921,22 +1733,8 @@ Caule Black Yellow Glass:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2040,22 +1838,8 @@ Caule Black Orange Glass:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2159,22 +1943,8 @@ Caule Black Coral Glass:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2278,22 +2048,8 @@ Caule Black Pink Glass:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2397,22 +2153,8 @@ Caule Black Gray Glass:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2520,22 +2262,8 @@ Caule Light Rose:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2634,22 +2362,8 @@ Caule Light Purple:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2748,22 +2462,8 @@ Caule Light Blue:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2862,22 +2562,8 @@ Caule Light Aqua:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -2976,22 +2662,8 @@ Caule Light Green:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -3090,22 +2762,8 @@ Caule Light Yellow:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -3204,22 +2862,8 @@ Caule Light Orange:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -3318,22 +2962,8 @@ Caule Light Coral:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -3432,22 +3062,8 @@ Caule Light Pink:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -3546,22 +3162,8 @@ Caule Light Gray:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -3666,22 +3268,8 @@ Caule Dark Rose:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -3783,22 +3371,8 @@ Caule Dark Purple:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -3900,22 +3474,8 @@ Caule Dark Blue:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -4017,22 +3577,8 @@ Caule Dark Aqua:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -4134,22 +3680,8 @@ Caule Dark Green:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -4251,22 +3783,8 @@ Caule Dark Yellow:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -4369,22 +3887,8 @@ Caule Dark Orange:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -4486,22 +3990,8 @@ Caule Dark Coral:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -4603,22 +4093,8 @@ Caule Dark Pink:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
@@ -4720,22 +4196,8 @@ Caule Dark Gray:
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-  #Animated icons
-  weather-icon-clear-night: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/clear-night.svg")
-  weather-icon-cloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/cloudy.svg")
-  weather-icon-fog: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/fog.svg")
-  weather-icon-lightning: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning.svg")
-  weather-icon-lightning-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/partlycloudy.svg")
-  weather-icon-pouring: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/pouring.svg")
-  weather-icon-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/rainy.svg")
-  weather-icon-hail: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/hail.svg")
-  weather-icon-snowy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy.svg")
-  weather-icon-snowy-rainy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/snowy-rainy.svg")
-  weather-icon-sunny: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/sunny.svg")
-  weather-icon-windy: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy.svg")
-  weather-icon-windy-variant: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/windy-variant.svg")
-  weather-icon-exceptional: url("https://raw.githubusercontent.com/Buzzzsaw/caule-themes-pack-1/refs/heads/master/themes/assets/exceptional.svg")
+  # Animated icons
+  <<: *animated_icons
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
