@@ -84,6 +84,11 @@
 #
 #
 
+# Fix override anchors
+.text_box_defaults: &text_box_fix
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--divider-color)
+  ha-color-form-background-disabled: var(--primary-background-color)
 
 #                                                                                  
 #    #####   #         ##     ####   #    # 
@@ -207,6 +212,9 @@ Caule Black Rose:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -321,6 +329,8 @@ Caule Black Purple:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
 
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -435,6 +445,8 @@ Caule Black Blue:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
 
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -549,6 +561,8 @@ Caule Black Aqua:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
 
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -663,6 +677,8 @@ Caule Black Green:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
 
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -777,6 +793,8 @@ Caule Black Yellow:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
 
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -891,6 +909,8 @@ Caule Black Orange:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
 
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -1005,6 +1025,8 @@ Caule Black Coral:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
 
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -1119,6 +1141,8 @@ Caule Black Pink:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
 
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -1233,6 +1257,8 @@ Caule Black Gray:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
 
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -1354,6 +1380,8 @@ Caule Black Rose Glass:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
 
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -1469,6 +1497,9 @@ Caule Black Purple Glass:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -1585,6 +1616,9 @@ Caule Black Blue Glass:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -1701,6 +1735,9 @@ Caule Black Aqua Glass:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -1817,6 +1854,9 @@ Caule Black Green Glass:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -1933,6 +1973,9 @@ Caule Black Yellow Glass:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -2049,6 +2092,9 @@ Caule Black Orange Glass:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -2165,6 +2211,9 @@ Caule Black Coral Glass:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -2281,6 +2330,9 @@ Caule Black Pink Glass:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -2397,6 +2449,9 @@ Caule Black Gray Glass:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -3663,6 +3718,9 @@ Caule Dark Rose:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -3777,6 +3835,9 @@ Caule Dark Purple:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -3891,6 +3952,9 @@ Caule Dark Blue:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -4005,6 +4069,9 @@ Caule Dark Aqua:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -4119,6 +4186,9 @@ Caule Dark Green:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
   
@@ -4233,6 +4303,9 @@ Caule Dark Yellow:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -4348,6 +4421,9 @@ Caule Dark Orange:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -4462,6 +4538,9 @@ Caule Dark Coral:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -4576,6 +4655,9 @@ Caule Dark Pink:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
 
 
 
@@ -4690,3 +4772,6 @@ Caule Dark Gray:
   mdc-select-idle-line-color: var(--primary-text-color)
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--primary-color)
+  
+  # Fix overrides
+  <<: *text_box_fix
