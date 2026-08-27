@@ -124,15 +124,8 @@ Caule Black Rose:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
-  state-switch-color: var(--primary-color)
-  state-automation-color: var(--primary-color)
-  state-cover-color: var(--primary-color)
-  state-fan-color: var(--primary-color)
-  state-light-color: var(--primary-color)
-  state-person-home-color: var(--primary-color)
-  badge-person-not-home-color: var(--primary-color)
-  state-person-zone-color: var(--primary-color)
+  state-icon-color: var(--primary-text-color)
+  state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
@@ -247,7 +240,7 @@ Caule Black Purple:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -363,7 +356,7 @@ Caule Black Blue:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -479,7 +472,7 @@ Caule Black Aqua:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -595,7 +588,7 @@ Caule Black Green:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -711,7 +704,7 @@ Caule Black Yellow:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -827,7 +820,7 @@ Caule Black Orange:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -943,7 +936,7 @@ Caule Black Coral:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -1059,7 +1052,7 @@ Caule Black Pink:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -1175,7 +1168,7 @@ Caule Black Gray:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -1298,7 +1291,7 @@ Caule Black Rose Glass:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -1416,7 +1409,7 @@ Caule Black Purple Glass:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -1535,7 +1528,7 @@ Caule Black Blue Glass:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -1654,7 +1647,7 @@ Caule Black Aqua Glass:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -1773,7 +1766,7 @@ Caule Black Green Glass:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -1892,7 +1885,7 @@ Caule Black Yellow Glass:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -2011,7 +2004,7 @@ Caule Black Orange Glass:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -2130,7 +2123,7 @@ Caule Black Coral Glass:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -2249,7 +2242,7 @@ Caule Black Pink Glass:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -2368,7 +2361,7 @@ Caule Black Gray Glass:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -2491,7 +2484,7 @@ Caule Light Rose:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -2605,7 +2598,7 @@ Caule Light Purple:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -2719,7 +2712,7 @@ Caule Light Blue:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -2833,7 +2826,7 @@ Caule Light Aqua:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -2947,7 +2940,7 @@ Caule Light Green:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -3061,7 +3054,7 @@ Caule Light Yellow:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -3175,7 +3168,7 @@ Caule Light Orange:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -3289,7 +3282,7 @@ Caule Light Coral:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -3403,7 +3396,7 @@ Caule Light Pink:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -3517,7 +3510,7 @@ Caule Light Gray:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -3637,7 +3630,7 @@ Caule Dark Rose:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -3754,7 +3747,7 @@ Caule Dark Purple:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -3871,7 +3864,7 @@ Caule Dark Blue:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -3988,7 +3981,7 @@ Caule Dark Aqua:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -4105,7 +4098,7 @@ Caule Dark Green:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -4222,7 +4215,7 @@ Caule Dark Yellow:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -4340,7 +4333,7 @@ Caule Dark Orange:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -4457,7 +4450,7 @@ Caule Dark Coral:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -4574,7 +4567,7 @@ Caule Dark Pink:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
@@ -4691,7 +4684,7 @@ Caule Dark Gray:
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
-  state-icon-color: var(--disabled-color)
+  state-icon-color: var(--primary-text-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
